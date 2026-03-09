@@ -9,12 +9,12 @@ A lightweight and efficient tool designed to convert any video into the native f
 
 ---
 
-## ⚠️ Hardware Limits & Performance
+## ⚠️ App Limitations (3DS Camera Viewer)
 
-This tool is pre-configured to respect the **Nintendo 3DS hardware limitations**. Please note:
+This tool is pre-configured to respect the specific limits of the **official 3DS Camera app**. Please note:
 
-* **Maximum Frame Rate:** **30 FPS**. The 3DS screen and native player cannot render more than 30 frames per second smoothly.
-* **Maximum Quality (Bitrate):** **2000 kbps**. Exceeding this value will cause playback lag or "Unsupported Data" errors on the console.
+* **Maximum Frame Rate:** **30 FPS**. The official viewer will not play videos exceeding this frame rate.
+* **Maximum Quality (Bitrate):** **2000 kbps**. Going above this limit will cause playback errors or the "Unsupported Data" message within the Camera app.
 
 ---
 
@@ -25,7 +25,7 @@ This tool is pre-configured to respect the **Nintendo 3DS hardware limitations**
 * **🌍 Bilingual:** Interface available in **English** and **Spanish**.
 * **⚙️ Smart Encoding:**
     * **Custom FPS:** Set your own (up to 30) or use the 20/30 presets.
-    * **Custom Bitrate:** Adjustable from 100 to 2000 kbps (Max limit).
+    * **Custom Bitrate:** Adjustable from 100 to 2000 kbps (App limit).
     * **Aspect Ratio:** Choose between "Stretch" or "Keep Aspect Ratio" (adds black bars).
 * **🔢 Auto-Indexing:** Automatically names files as `HNI_0001.avi`, `HNI_0002.avi`, etc., for instant recognition.
 
@@ -50,12 +50,12 @@ This tool is pre-configured to respect the **Nintendo 3DS hardware limitations**
 
 ---
 
-## 📊 Technical Specs (3DS Native)
+## 📊 Technical Specs (Official Viewer)
 
 | Parameter | Limit / Value |
 | :--- | :--- |
-| **Max Bitrate** | 2000 kbps (Hard Limit) |
-| **Max FPS** | 30 FPS (Hard Limit) |
+| **Max Bitrate** | 2000 kbps (App Limit) |
+| **Max FPS** | 30 FPS (App Limit) |
 | **Video Codec** | MJPEG |
 | **Audio Codec** | ADPCM IMA WAV |
 | **Resolution** | 400x240 px |
@@ -64,6 +64,6 @@ This tool is pre-configured to respect the **Nintendo 3DS hardware limitations**
 
 ## 📝 Notes
 - The app generates a `3ds_converter_log.txt` to save your preferences and the last file index.
-- For long videos, consider using the **Video Player for 3DS** link provided in the app.
+- If you need to play videos with higher specs, consider using the **Video Player for 3DS** (Homebrew) link provided in the app.
 
 ---
